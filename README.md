@@ -9,27 +9,24 @@ Para la instalación de este aplicación debes contar con lo siguiente:
 
 * [npm](https://www.npmjs.com/get-npm) - npm
 * [nodejs](https://nodejs.org/es/download/) - nodejs
+* [cypress](https://www.cypress.io/) - cypress
 * [live-server](https://www.npmjs.com/package/live-server) - live-server
 
 ### Instalación 🔧
 
 Para poder realizar la instalación de esta aplicación basta con descargar este repositorio y ejecutar en la ruta donde se descargo el comando: 
-
 ```
 npm install
 ``` 
-
 Una vez finalice de descargar las dependencias puedes realizar la ejecución del componente back con el siguiente comando:
 ```
 node index.js
 ```
-
 Ahora es necesario levantar un web server donde correra el componente front de la aplicación, esto lo realiza usando el siguiente comando:
 ```
 cd FrontEnd
 npx live-server --port=8080
 ```
-
 Por último para dar acceso a las imagenes que se van actualizando y generando de las pruebas, se debe subir un segundo web server, de la siguiente manera:
 ```
 cd ..
